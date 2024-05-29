@@ -1,0 +1,16 @@
+{
+  "name": "make-cert",
+  "version": "1.0.0",
+  "description": "opensslでオレオレ証明書をつくろう",
+  "scripts": {
+    "generate": "bash generate.sh",
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "bo-yakitarako",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
